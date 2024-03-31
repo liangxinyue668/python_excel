@@ -4,6 +4,8 @@ import xlwt
 excel_src_parh = './test.xlsx'
 excel_new_path = './new.xlsx'
 
+a = 5
+
 excel_src = xlrd.open_workbook(excel_src_parh)
 sheet_src = excel_src.sheet_by_name('源数据')
 # sheet_src = excel_src.sheets()[0] #打开第一个表
