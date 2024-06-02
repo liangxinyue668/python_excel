@@ -12,6 +12,7 @@ week_report_acc_data = week_report['配饰周度数据']
 week_report_acc_inventory = week_report['配饰库存']
 week_report_acc_country = week_report['配饰站点数据']
 
+# ...
 week_pivot_table = openpyxl.load_workbook('D:/数据/周报/数据/亲子周报透视数据2024-05-20_2024-05-26.xlsx')
 week_pivot_table_family_sales = week_pivot_table['亲子销售透视']
 week_pivot_table_family_inventory = week_pivot_table['亲子库存透视']
